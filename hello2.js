@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello node2\n');
+  console.log('Client Access');
 });
 
 server.listen(port, hostname, () => {
