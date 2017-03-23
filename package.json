@@ -4,6 +4,7 @@
   "description": "l5vd5's nodejs tutorial",
   "main": "hello.js",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "jade": "^1.11.0",
     "underscore": "^1.8.3"
